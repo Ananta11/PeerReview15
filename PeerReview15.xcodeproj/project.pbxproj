@@ -16,6 +16,13 @@
 		8CE8031F2035CEEC00C2F72B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CE8031E2035CEEC00C2F72B /* Assets.xcassets */; };
 		8CE803222035CEEC00C2F72B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE803202035CEEC00C2F72B /* LaunchScreen.storyboard */; };
 		8CE803252035CEEC00C2F72B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE803242035CEEC00C2F72B /* main.m */; };
+		8CE8032E2035E07B00C2F72B /* ShortDrop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CE8032B2035E07A00C2F72B /* ShortDrop.wav */; };
+		8CE8032F2035E07B00C2F72B /* LongDrop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CE8032C2035E07A00C2F72B /* LongDrop.wav */; };
+		8CE803302035E07B00C2F72B /* MidDrop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CE8032D2035E07B00C2F72B /* MidDrop.wav */; };
+		8CE803332035E47C00C2F72B /* TallDrop.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8CE803312035E47C00C2F72B /* TallDrop.sks */; };
+		8CE803342035E47C00C2F72B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CE803322035E47C00C2F72B /* Assets.xcassets */; };
+		8CE803362035E49600C2F72B /* MidDrop.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8CE803352035E49600C2F72B /* MidDrop.sks */; };
+		8CE803382035E4B100C2F72B /* ShortDrop.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8CE803372035E4B100C2F72B /* ShortDrop.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +40,13 @@
 		8CE803212035CEEC00C2F72B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CE803232035CEEC00C2F72B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CE803242035CEEC00C2F72B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8CE8032B2035E07A00C2F72B /* ShortDrop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ShortDrop.wav; sourceTree = "<group>"; };
+		8CE8032C2035E07A00C2F72B /* LongDrop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = LongDrop.wav; sourceTree = "<group>"; };
+		8CE8032D2035E07B00C2F72B /* MidDrop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MidDrop.wav; sourceTree = "<group>"; };
+		8CE803312035E47C00C2F72B /* TallDrop.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TallDrop.sks; sourceTree = "<group>"; };
+		8CE803322035E47C00C2F72B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CE803352035E49600C2F72B /* MidDrop.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MidDrop.sks; sourceTree = "<group>"; };
+		8CE803372035E4B100C2F72B /* ShortDrop.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ShortDrop.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +63,13 @@
 		8CE803022035CEEB00C2F72B = {
 			isa = PBXGroup;
 			children = (
+				8CE803312035E47C00C2F72B /* TallDrop.sks */,
+				8CE803352035E49600C2F72B /* MidDrop.sks */,
+				8CE803372035E4B100C2F72B /* ShortDrop.sks */,
+				8CE803322035E47C00C2F72B /* Assets.xcassets */,
+				8CE8032C2035E07A00C2F72B /* LongDrop.wav */,
+				8CE8032D2035E07B00C2F72B /* MidDrop.wav */,
+				8CE8032B2035E07A00C2F72B /* ShortDrop.wav */,
 				8CE8030D2035CEEB00C2F72B /* PeerReview15 */,
 				8CE8030C2035CEEB00C2F72B /* Products */,
 			);
@@ -140,11 +161,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CE8032E2035E07B00C2F72B /* ShortDrop.wav in Resources */,
 				8CE8031D2035CEEC00C2F72B /* Main.storyboard in Resources */,
+				8CE8032F2035E07B00C2F72B /* LongDrop.wav in Resources */,
 				8CE803122035CEEB00C2F72B /* GameScene.sks in Resources */,
+				8CE803342035E47C00C2F72B /* Assets.xcassets in Resources */,
+				8CE803362035E49600C2F72B /* MidDrop.sks in Resources */,
 				8CE8031F2035CEEC00C2F72B /* Assets.xcassets in Resources */,
 				8CE803222035CEEC00C2F72B /* LaunchScreen.storyboard in Resources */,
+				8CE803302035E07B00C2F72B /* MidDrop.wav in Resources */,
+				8CE803382035E4B100C2F72B /* ShortDrop.sks in Resources */,
 				8CE803142035CEEB00C2F72B /* Actions.sks in Resources */,
+				8CE803332035E47C00C2F72B /* TallDrop.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7KHHPX4EM;
 				INFOPLIST_FILE = PeerReview15/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AnantaShahane.PeerReview15;
@@ -306,6 +335,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7KHHPX4EM;
 				INFOPLIST_FILE = PeerReview15/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AnantaShahane.PeerReview15;

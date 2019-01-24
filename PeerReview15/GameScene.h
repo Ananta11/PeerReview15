@@ -8,6 +8,9 @@
 
 #import <SpriteKit/SpriteKit.h>
 
-@interface GameScene : SKScene
+@interface GameScene : SKScene <SKPhysicsContactDelegate>
 
+@property (strong, nonatomic) SKNode *ball;
+@property (assign, nonatomic) CGPoint initialTouch;
+@property (assign, nonatomic) CGPoint finalTouch;
 @end
